@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">PruebaTecnicaReact</string>
+    <string name="error_card_button">Accept</string>
+    <string name="default_error">Something went wrong</string>
+    <string name="capture_face_button">Face capture</string>
+    <string name="pick_image_from_galley_button">Select an image</string>
+    <string name="compare_images_button">Compare images</string>
+    <string name="reset_images_button">Reset</string>
+    <string name="images_comparison_popup_title">Result of comparison</string>
+    <string name="images_comparison_popup_loading_title">Comparing faces…</string>
+    <string name="images_comparison_popup_subtitle">The similarity between the faces is:</string>
+    <string name="images_comparison_popup_button">Close</string>
+    <string name="main_screen_title">Face comparator</string>
+    <string name="full_screen_error_button">Accept</string>
+    <string name="main_screen_full_loading_text">Initializing SDK…</string>
 </resources>
