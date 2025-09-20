@@ -35,7 +35,7 @@ fun ImageWithButtonComposable(
         modifier = modifier.padding(horizontal = 8.dp)
     ) {
         Column(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth().height(200.dp),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
@@ -43,12 +43,12 @@ fun ImageWithButtonComposable(
                 Image(
                     bitmap = image,
                     contentDescription = "Image",
-                    modifier = Modifier.size(150.dp),
-                    contentScale = ContentScale.Crop
+                    modifier = Modifier.height(150.dp),
+                    contentScale = ContentScale.FillWidth
                 )
             } else {
                 Spacer(
-                    modifier.height(150.dp)
+                    modifier.weight(1f)
                 )
             }
             Button(

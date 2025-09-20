@@ -131,7 +131,7 @@ fun MainBodyComposable(
             }
             if (state.showErrorPopUp) {
                 ErrorCardComposable(
-                    errorMessage = state.errorMessage ?: stringResource(    R.string.default_error),
+                    errorMessage = state.errorMessage ?: stringResource(R.string.default_error),
                     onClose = { onEvent(MainEvent.OnCloseError) }
                 )
             }
